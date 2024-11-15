@@ -6,7 +6,7 @@ describe('My Login application', () => {
             
             await LoginPage.open()
             await LoginPage.loopFunction("secret_sauce")
-            
+            await LoginPage.loopFunction("Secrt_sauce")
         });
 });
 
